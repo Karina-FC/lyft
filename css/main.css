@@ -1,0 +1,44 @@
+/*
+ * Estilos de tu proyecto*/
+
+.fondo {
+	background-image: url(./img/img1.jpg);
+}
+	
+
+#logo {
+	display: inline-block;
+	float: right;
+	height: 43px;
+	margin-left: 80px;
+	margin-top: 41px;
+	width: 65px;
+}
+
+.menuinicio p {
+	display: inline-block;
+	float:left;
+	height: 5px;
+	margin-left: 516px;
+	margin-top: 45px;
+	width: 27px;
+}
+
+/*.header p{
+	float:right;
+	height: 155px;
+	margin-left: 516px;
+	margin-top: 45px;
+	width: 257px;
+}
+
+nav {
+  position: fixed;
+  top: 50px; left: 0; right: 0;
+  background: red;
+  height: 20px;
+}
+
+#relleno {
+  height: 70px;  
+}*/
