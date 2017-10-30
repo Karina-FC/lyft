@@ -1,28 +1,142 @@
 /*
  * Estilos de tu proyecto*/
 
-.fondo {
-	background-image: url(./img/img1.jpg);
+.inicio {
+	height: 534px;
+	position: relative;
+	width: 100%;
 }
 	
+.fondo #logo {
+	float: left;
+	width: 67px:
+	height: 42px;
+	left: 78px;
+	top: 42px;
+	right: 145px;
+	bottom: 85px;
+	width: 10px; /*ancho de la imagen*/
+	padding-left: 15px;
+}
 
-#logo {
+/*	text-align: left;
+	height: 43px;
+	
+	width: 65px;
+}*/
+
+.fondo #menu{
 	display: inline-block;
 	float: right;
-	height: 43px;
-	margin-left: 80px;
-	margin-top: 41px;
-	width: 65px;
 }
 
-.menuinicio p {
+.fondo #menu {
+	float: right;
+ 	color: black;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+ 	list-style-type: none;
+ 	margin-right: 55px;
+ 	margin-top: 45px;
+ 	position: relative;
+	text-align: right;
+	text-decoration: none;
+	text-transform: capitalize;
+ }	
+
+.cuadro {
+	position: absolute;
+	width: 520px;
+	height: 520px;
+	background: white;
+}
+
+/*
 	display: inline-block;
-	float:left;
+	background-color: white;
+  	width: 60%;
+  	text-align: right;
+
+
+	float:right;
+	padding-top: 108px;
+  	padding-right: 10px;
+	background-color: white;
+	display: inline-block;
+	bottom: 534px;
+	height: 419px;
+	left: 753px;
+	width: 533px;
+}*/
+.cuadro p {
+ 	color: #490086;
+ 	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+    text-transform: capitalize;
+ }
+ 	/*color: black;
+ 	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+    list-style-type: none;
+    text-transform: capitalize;*/
+ 
+/* 
+.fondo ul {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+    list-style-type: none;
+    margin: 55px;
+    padding: 45px;
+	text-transform: capitalize;
+}
+
+
+li a:hover {
+    display: inline-block;
+    color: white;
+    float: left;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+*/
+/*
+.fondo p {
+	color: #fff;
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+ 	list-style-type: none;
+ 	margin-right: 55px;
+ 	margin-top: 45px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+
+	color: white;
+
+	text-align: right;
 	height: 5px;
-	margin-left: 516px;
-	margin-top: 45px;
+	margin-left: 486px;
+	margin-top: -145px;
 	width: 27px;
 }
+*/
+.celular {
+	background: linear-gradient(#76278F, #2B1E66);
+	height: 640px;
+	display: inline-block;
+	padding: 40;
+	position: absolute;
+	margin: 40;
+	width: 100%;
+}
+.celular  #tabla {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+    text-transform: capitalize;
+}
+
 
 /*.header p{
 	float:right;
